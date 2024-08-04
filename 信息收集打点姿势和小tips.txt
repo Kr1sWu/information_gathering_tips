@@ -53,48 +53,31 @@ ________________________________________________________________________________
  - 资产 region="Zhejiang" && body="林业管理"
  - Sql注入 region="Zhejiang" && body="id=43"
  - 文件上传 region="Zhejiang" && body="uplaod" && title="XXXX校园管理"
-
 https://blog.csdn.net/2301_77732591/article/details/131287672
 ________________________________________________________________________________
 [一些信息搜集姿势]
-
  * 信息泄露 [Google] site:edu.cn filetype:pdf "身份证"
  * 1Day [Fofa] title="移动管理平台-企业管理"&&country="CN" (默认账号密码去打)
  * 寻找注册接口 [Fofa] host="edu.cn"&&"注册"&&country="CN" (登录也可以)(测短信轰炸看看[并发&重放?])
  * 小程序 微信搜索(关键词增改) 百度 百度集团 北京百度 百度科技有限公司 北京百度网讯科技有限公司
 ________________________________________________________________________________________________
-[目录遍历漏洞]
-site:xxx.com intitle:index.of
-
-[SQL错误]
-site:xxx.com intext:"sql syntax near" | intext:"syntax error"
-
-[phpinfo()]
-site:xxx.com ext:php intitle:phpinfo "published by the PHP"
-
-[配置文件泄露]
-site:xxx.com ext:.xml | .conf | .cnf | .reg | .inf | .rdp | .cfg
-
-[数据库文件泄露]
-site:xxx.com ext:.sql | .dbf | .mdb | .db
-
-[日志文件泄露]
-site:xxx.com ext:.log
-
-[备份和历史文件泄露]
-site:xxx.com ext:.bkf | .bkp | .old | .backup | .bak | .swp
-
-
+[目录遍历漏洞] site:xxx.com intitle:index.of
+[SQL错误] site:xxx.com intext:"sql syntax near" | intext:"syntax error"
+[phpinfo] site:xxx.com ext:php intitle:phpinfo "published by the PHP"
+[配置文件泄露] site:xxx.com ext:.xml | .conf | .cnf | .reg | .inf | .rdp | .cfg
+[数据库文件泄露] site:xxx.com ext:.sql | .dbf | .mdb | .db
+[日志文件泄露] site:xxx.com ext:.log
+[备份和历史文件泄露] site:xxx.com ext:.bkf | .bkp | .old | .backup | .bak| .swp
 ________________________________________________________________________________	
 [指纹识别]
-
- * 登录框万能验证码: 登录方式:手机号或邮箱 验证码123456 开发人员输入为了方便测试
-   - 扩大危害 信息收集老师手机号码,泄露身份证,定级中危
+ * 登录框万能验证码: 登录方式:手机号或邮箱 验证码123456 
+   - 开发人员为了方便测试后期项目上线没有删除
+   - 扩大危害 信息收集老师学生手机号码,泄露身份证,定级中危
    * 观察响应包是否泄露db(报错)语句,利用布尔型注入检测
       姿势 
+
 	1.?id=if(1=1,1165,0) 返回包true 
 	2.?id=if((left(databases(),1)='a'),1165,0) 返回false
-
 ________________________________________________________________________________________________________
 爱企查: 查询企业icp备案,子公司,收集app和小程序,开发商版权
 https://aiqicha.baidu.com
@@ -147,20 +130,20 @@ DNS数据		dnsdumpster			https://dnsdumpster.com/
 网络空间		Netlas				https://app.netlas.io/responses/
 网络空间		Leakix				https://leakix.net/
 网络空间		DorkSearch			https://dorksearch.com/
-威胁情报		VirusTotal查杀平台	https://www.virustotal.com/gui/
-威胁情报		VenusEye威胁情报中心	https://www.venuseye.com.cn/
-威胁情报		绿盟科技威胁情报云		https://ti.nsfocus.com/
-威胁情报		IBM 情报中心		https://exchange.xforce.ibmcloud.com/
-威胁情报		天际友盟安全智能平台	https://redqueen.tj-un.com/IntelHome.html
-威胁情报		华为安全中心平台		https://isecurity.huawei.com/sec/web/intelligencePortal.do
-威胁情报		安恒威胁情报中心		https://ti.dbappsecurity.com.cn/
-威胁情报		AlienVault 		https://otx.alienvault.com/
-威胁情报		深信服 			https://sec.sangfor.com.cn/analysis-platform
-威胁情报		丁爸情报分析师工具箱	http://dingba.top/
-威胁情报		听风者情报源start.me	https://start.me/p/X20Apn
-威胁情报		GreyNoiseVisualizer	https://viz.greynoise.io/
-威胁情报		URLhaus数据库		https://urlhaus.abuse.ch/browse/
-威胁情报		Pithus			https://beta.pithus.org/
+威胁情报		VirusTotal查杀平台		https://www.virustotal.com/gui/
+威胁情报		VenusEye威胁情报中心		https://www.venuseye.com.cn/
+威胁情报		绿盟科技威胁情报云			https://ti.nsfocus.com/
+威胁情报		IBM 情报中心			https://exchange.xforce.ibmcloud.com/
+威胁情报		天际友盟安全智能平台		https://redqueen.tj-un.com/IntelHome.html
+威胁情报		华为安全中心平台			https://isecurity.huawei.com/sec/web/intelligencePortal.do
+威胁情报		安恒威胁情报中心			https://ti.dbappsecurity.com.cn/
+威胁情报		AlienVault 			https://otx.alienvault.com/
+威胁情报		深信服 				https://sec.sangfor.com.cn/analysis-platform
+威胁情报		丁爸情报分析师工具箱		http://dingba.top/
+威胁情报		听风者情报源start.me		https://start.me/p/X20Apn
+威胁情报		GreyNoiseVisualizer		https://viz.greynoise.io/
+威胁情报		URLhaus数据库			https://urlhaus.abuse.ch/browse/
+威胁情报		Pithus				https://beta.pithus.org/
 
 指纹识别		在线cms指纹识别		http://whatweb.bugscaner.com/look/
 指纹识别		Wappalyzer		https://github.com/AliasIO/wappalyzer
