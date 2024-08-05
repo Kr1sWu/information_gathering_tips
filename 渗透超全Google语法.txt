@@ -1,0 +1,738 @@
+
+inurl:Login 将返回url中含有Login的网页
+
+intitle:后台登录管理员 将返回含有管理员后台的网页
+
+intext:后台登录 将返回含有后台的网页
+
+inurl:/admin/login.php 将返回含有admin后台的网页
+
+inurl:/phpmyadmin/index.php 将返回含有phpmyadmin后台的网页
+
+site:http://baidu.com inur:Login 将只在http://baidu.com中查找urI中含有Login的网页
+
+site:http://baidu.com filetype:pdf 将只返回http://baidu.com站点上文件类型为pdf的网页
+
+link:http://www.baidu.com 将返回所有包含指向http://www.baidu.com的网页
+
+related:http://www.llhc.edu.cn 将返回与http://www.llhc.edu.cn相似的页面，相似指的是网页的布局相似
+
+index of /admin 发现允许目录浏览的web网站
+
+inurl:share.cgi?ssid= 云服务器文件和文件夹共享
+
+intitle:"Welcome to QNAP Turbo NAS" QNAP登录页面
+
+inurl:"img/main.cgi?next_file" 在线摄像头
+
+ext:log inurl:"/pgadmin" 包含多媒体信息的文件,pgAdmin客户端日志文件
+
+"http://m.zippyshare.com/" 敏感目录
+
+"-- Account dump" ext:sql-git 使用标签查找关于MySQL转储的信息
+
+inurl:_vti_pvt/administrators.pwd 用于检索MS FrontPage共享点的敏感信息登录/密码
+
+inurl:front/central.php 包含登录门户的页面
+
+inurl:zabbix.php AND intext:"Zabbix SIA" zxbbix网络监控系统
+
+inurl:"/wp-admin/setup-config.php" intitle:"Setup Configuration File" 找未完成的安装Wordpress
+
+inurl:scgi-bin intitle:"NETGEAR ProSafe" 千兆防火墙。默认用户名：admin。默认密码：密码inurl：scgi-bin
+
+inurl:index of= %2F /admin login %2F intitle:"Administration Login - 网络托管公司的管理员登录
+
+intitle:"twonky server" inurl:"9000" -intext:"9000" 查找Twonky媒体共享服务器
+
+inurl:"sitemanager.xml" ext:xml -git 查找FileZilla站点管理器文件，其中包含FTP用户名和密码Dxtroyer
+
+intitle:"Sign in · GitLab" 查找GitLab登录页面
+
+inurl:"/api/index.php" intitle:UniFi 查找具有多信息的UniFi API浏览器，如WiFi密码redstoner2014
+
+inurl:"wp-content/uploads/file-manager/log.txt" WordPress插件文件管理器日志文件有趣的信息
+
+"TX_start" "card_name" ext:log 从商店查找交易记录，其中包含多汁的信用卡/借记卡信息
+
+intitle:"Namenode information" AND inurl:":50070/dfshealth.html" 用于基础设施Hadoop的NameNode存储信息
+
+inurl:/_layouts/mobile/view.aspx?List= 包含用户名的文件
+
+inurl:".php?id=" "You have an error in your SQL syntax" 找到sql注入的网站
+
+inurl:/proc/self/cwd 遭到入侵的易受攻击的Web服务器
+
+inurl:/remote/login?lang=en 查找FortiGate防火墙的SSL-VPN登录门户
+
+intitle:"Plesk Onyx" intext:"Interface language" 查找Plesk Onyx登录页面
+
+intitle:"GitBucket" intext:"Recent updated repositories" intext:"Sign In" 查找GitBucket服务器
+
+intitle:"cuckoo sandbox" "failed_reporting" cuckoo 失败报考
+
+"You‘re successfully running JSON Server" 成功运行JSON服务器
+
+index of /htdocs 用于查找未经授权的Web服务器，并通过‘htdocs‘文件夹查找所有敏感信息
+
+inurl:login.cgi intitle:NETGEAR NETGEAR 在线查找GSS108E ProSAFE PoE +点击开关,默认密码password
+
+inurl:"/ap/recuperadocumentossql.aspx" AuraPortal：内部文件
+
+intitle:"Namenode information" 查找无密封的文件系统，等待被利用
+
+inurl:"/ADVANCED/COMMON/TOP" 查找无密码的爱普生打印机
+
+filetype:ini "wordfence". 找到运行Wordfence WAF的WordPress网站
+
+intitle:"Index of" "Apache/2.4.7 (Ubuntu) Server" 用于查找Ubuntu服务器和某个版本的Apache
+
+"Sorting Logs:" "Please enter your password" "Powered By" -urlscan -alamy 找到stealer僵尸网络控制面板
+
+intitle:"Index of /" "mod_ssl 2.2.22 OpenSSL/1.0.1" 找到易受攻击的Bug Dxtroyer的OpenSSL服务器
+
+intitle:"Index of /" "Proudly Served by Surftown at" 查找Surftown HTTP服务器Dxtroyer
+
+"Blocking Reason:" ext:log -git 找到安全漏洞日志Dxtroyer
+
+inurl:"/logs/www" ext:log 查找连接日志，用户代理，错误等
+
+intitle:"Index of /" "joomla_update.php" 找到具有Joomla日志的目录，通常包含多汁的信息
+
+intext:uploadOverwrite || intext:OPEN || intext:cwd cwd作者
+
+intext:DB_PASSWORD || intext:"MySQL hostname" ext:txt 允许你搜索WordPress配置
+
+site:http://pastebin.com intext:"*@*.com:*" 查找http://pastebin.com转储的邮件列表，密码TPNight
+
+inurl:"g2_view=webdav.WebDavMount" 查找启用WebDAV的网站TPNight
+
+-inurl:htm -inurl:html intitle:"index of" NIKON 浏览尼康数码单反相机和相机目录中上传和保存的图像和照片
+
+-inurl:htm -inurl:html intitle:"index of" 100CANON 浏览佳能的目录中上传和保存的图像和照片
+
+"Protocol=unreal" ext:ini -git 到虚幻游戏文件，可能包含管理员密码
+
+inurl:"/Windows/Cookies/"ext:txt -telecom -forbidden -git查找Windows存储的Cookie，可能包含加密的用户名和密码
+
+"[FFFTP]" ext:ini 使用FTP登录，服务器信息等查找文件
+
+"random‘s system information tool" ext:txt 从系统信息工具找信息
+
+inurl:app/config/intext:parameters.yml intitle:index.of 目录：Symfony（PHP Framework）包含
+
+inurl:"dcwp_twitter.php?1=" 使用私人消息，加密凭证等查找Twitter API日志
+
+intitle:"Setup Home" "Internet Status" -belkin 找到互联网连接的Arris路由器
+
+inurl:"ftp://www." "Index of /" 查找在线FTP服务器
+
+intitle:"CGIWrap Error" 查找包含一些有趣信息的CGIWrap脚本错误
+
+"Consola de Joomla! Debug" inurl:index.php 提供以下信息>会话>配置文件信息>内存使用>数据库注册表
+
+inurl:"pubdlcnt.php?file=" ext:php 找到重定向漏洞.
+
+"-- MySQL Administrator dump" ext:sql 找到一些不错的数据库转储，可能包含用户名，密码和其他
+
+"-----BEGIN X509 CERTIFICATE-----" ext:pem -git 查找X.509服务器证书
+
+"START securepay" ext:log 查找交易记录（有时包含信用卡号码和其他多汁的信息
+
+inurl:"8080/jmx-console" 将列出所有未经身份验证的jboss服务器与jmx-console访问
+
+inurl:"Login;jsessionid=" 查找通用的JS登录门户
+
+inurl:"idx_config" 找到通过shell抓取配置
+
+inurl:"exit.php?url=" -entry_id 页面易受任意重定向
+
+"KVP_ENCDATA:Version=1.0" ext:log 查找具有银行帐户信息的交易记录
+
+allinurl:"/wp-content/plugins/wp-noexternallinks" 找到易受XSS影响的“无外部链接”插件“”错误
+
+"resources.db.params.password" ext:ini -git 找数据库用户名和密码
+
+intitle:"Dell SonicWALL - Authentication" 发现戴尔防火墙服务器
+
+intitle:"webcamXP 5" -download 查找WebcamXP相机
+
+inurl:"http://ftp.dlink" 允许我们找到D-Link路由器的FTP目录列表
+
+intitle:"Authorization" "TF" inurl:"admin.php" 找到一堆未受保护的僵尸网络控制面板
+
+inurl:"http://webmail." 查找各种网络邮件服务器
+
+inurl:"/siteadmin/index.php" 找到管理控制台
+
+ext:reg"[HKEY_CURRENT_USER\Software\ORL\WinVNC3]" -git 使用WinVNC密码查找文件
+
+"mysqli_connect" ext:inc 查找包含MySQL用户名和密码的脚本
+
+"MiniToolBox by Farbar" ext:txt 查找具有IP配置，DNS信息，应用程序错误等的日志！
+
+"WEB Browser Password Recovery" ext:txt WEB浏览器密码重置
+
+"Operating System Intel Recovery" ext:txt 操作系统英特尔恢复
+
+"iSpy Keylogger" "Passwords Log" ext:txt iSpy Keylogger日志密码
+
+ext:php intext:"-rwxr-xr-x" site:.in 受影响的软件
+
+inurl:http://core.windows.net ext:xlsx 可以更改文件扩展名或运行没有扩展名
+
+"-- MySQL dump" ext:sql -git 查找MySQL数据库转储，用户名，密码
+
+inurl:/helpdesk/staff/index.php? 找到“Kayako软件票务门户登录页面”
+
+inurl:/_catalogs 识别sharepoint服务器
+
+inurl:/pub/ inurl:_ri_ 使用Oracle Responsys的服务器*
+
+inurl:"/data/urllist.txt" ext:txt -git 文网站地图，其中包含robots.txt
+
+"Log in" "Magento is a trademark of Magento Inc." 查找Magento管理登录
+
+intitle:index of intext:@WanaDecryptor@.exe Wannacry Ransonware感染的服务器
+
+" End Stealer " ext:txt 333从“Black Stealer” 中查找日志，这是一个互联网密码
+
+"--- WebView Livescope Http Server Error ---" -git WebView服务器错误，主要发现在旧服务器
+
+intitle:index of intext:wncry 找到受Wannacry Ransomware影响的服务器
+
+inurl:"/view/view.shtml?id=" 查找Axis IP摄像机
+
+intitle:"Welcome to ZyXEL" http://-zyxel.com 查找ZyXEL路由器，IP摄像机和其他设备
+
+"FileZilla" inurl:"recentservers.xml" -git 查找FileZilla最新的服务器文件，带有纯文本用户名/密码
+
+"SECRET//NOFORN" ext:pdf 找到秘密政府文件
+
+"PHP Fatal error: require()" ext:log 找到PHP错误日志
+
+inurl:"go.cgi?url=" 找到可以利用来重定向 可以将其用于网络钓鱼
+
+(site:onion.link | site:onion.cab | site:http://tor2web.org | site:onion.sh | site:tor2web.fi | site:onion.direct) 查找托管在Tor网络托管的网站
+
+inurl:"http://voicemail." 各种语音邮件服务器
+
+"Stealer by W33DY" ext:txt 找到具有用户名，密码和网站
+
+inurl:"this.LCDispatcher?nav=" 查找连接到互联网Dxtroyer的HP打印机
+
+inurl:"multimon.cgi" intitle:"UPS" 找到现场交通显示器
+
+inurl:"member.php?action=login" 查找由MyBB 登录页面
+
+"Section" inurl:"xorg.conf" ext:conf -wiki Xorg X的配置文件，包含受害者的计算机信息
+
+inurl:"lvappl.htm" 找到连接到互联网服务器（主要是安全摄像头
+
+intitle:index of AND (intext:mirai.x86 OR intext:mirai.mips OR intext:mirai.mpsl OR
+
+intext:mirai.arm OR intext:mirai.arm7 OR intext:mirai.ppc OR intext:mirai.spc OR intext:mirai.m68k OR intext:mirai.sh4) 查找感染服务器
+
+inurl:"/zebra.conf" ext:conf -git 查找GNU Zebra登录凭据
+
+"screen mode id:" ext:rdp RDP基本上是Windows认证的后门
+
+inurl:"/Windows/Cookies/" ext:txt -git 所有种类的网站的Cookie
+
+inurl:"/drive/folders/" site:http://drive.google.com Google云端硬盘文件夹
+
+inurl:"/fmi/webd" 登录另一个文件云文件夹
+
+"HTTP" inurl:"access.log" ext:log 查找包含有关网站活动信息的日志
+
+inurl:"folderview?id=" site:http://drive.google.com 查找人员的私人文件夹
+
+"Index of" inurl:"/$Recycle.Bin/" Windows回收箱
+
+inurl:"http://Makefile.in" ext:in 使用私有服务器信息查找配置文件
+
+inurl:/j_security_check;jsessionid= 可以访问很多登录页面
+
+intext:VIEWS · Server: - Database: information_schema - Table: SCHEMA_PRIVILEGES · Browse · Structure · SQL · Search · Export 访问网站phpmyadmin的web服务器
+
+"[dirs]" inurl:"mirc.ini" -git 查找mIRC配置文件
+
+ext:fetchmailrc 查找.fetchmailrc文件与电子邮件登录信息
+
+"[main]" "enc_GroupPwd=" ext:txt 找到Cisco VPN客户端密码
+
+"InnoDB:" ext:log 找到MySQL错误日志
+
+"-----BEGIN RSA PRIVATE KEY-----" ext:key　　＃＃＃ 一些哈希（密码，证书等
+
+"Scan result of Farbar Recovery Scan Tool" ext:txt 　　　　Farbar恢复扫描工具扫描结果
+
+" AdwCleaner" ext:txt 　　　　　　　　　　　　　　　 查找AdwCleaner logfiles
+
+"/wp-admin/admin-ajax" ext:txt 查找robots.txt文件，其中提供有关服务器更敏感方面的信息
+
+"WHMCS Auto Xploiter" 发现WHMCS在站点Dxtroyer中利用shellz
+
+powered by h5ai 由h5ai提供*您可以浏览文件
+
+"[PHPSESSID]" ext:log 查找由PHP Dxtroyer生成的会话ID的日志
+
+"Access Denied" "Powered by Incapsula" ext:php 查找触发了Incapsula WAF Dxtroyer的易受攻击的页面
+
+"authentication failure; logname=" ext:log 查找失败登录的日志文件，其中包含用户名和登录路径
+
+filetype:bak inurl:php "mysql_connect" 包含MySQL数据库密码的PHP备份
+
+inurl:"/load.cgi" ext:cgi 查找更多页面易受重定向的
+
+"Logfile of Trend Micro HijackThis" ext:log 趋势微劫持的日志文件
+
+"LGD_CARDNUM" ext:log -site:http://camper.com 查找部分信用卡号，银行帐户信息
+
+inurl:"/HtmlAdaptor?action="
+
+"[boot loader]" "WINNT" ext:ini 查找boot.ini文件，显示在服务器
+
+inurl:"mail" ext:mai 发送的私人电子邮件
+
+"%@" ext:ascx 查找ASP配置和设置
+
+intitle:"Nessus Scan Report" ext:html 查找Nessus（漏洞扫描程序
+
+"SERVER_ADDR" "SERVER_PORT" "SERVER_NAME" ext:log 查找具有服务器信息的日志
+
+inurl:"exit.php?site=" 查找允许您将用户重定向到任何网站的文件
+
+inurl:"/SecureAuth1" SecureAuth登录，密码重置i
+
+inurl:"/admin.php?cont=" 找到Radius Manager登录页面
+
+" -FrontPage-" ext:pwd 查找MS Frontpage密码
+
+inurl:"/sitemap.xsd" ext:xsd 找到导致站点地图的文件...有用于查找登录门户和内容
+
+inurl:"/fb_ca_chain_bundle.crt" ext:crt 查找Facebook留下的安全证书，可能有一些有用的信息
+
+"El Moujahidin Bypass Shell" ext:php 简单上传
+
+" This file was generated by libcurl! Edit at your own risk." ext:txt cookie数据，有时包含易受攻击的信息
+
+"END_FILE" inurl:"/password.log" 查找用户特定的登录信息
+
+-english -help -printing -companies -archive -wizard -pastebin -adult -keywords "Warning: this page requires Javascript. To correctly view, please enable it in your browser" 用于fortinet防火墙登录网络的
+
+"INSERT INTO phpbb_users" ext:sql 查找具有用户名和散列密码的文件
+
+"havij report" "Target" ext:html 显示havij sqli注射报告
+
+inurl:"/admin/index.php?msg=" inurl:"%20" 找到可以XSS‘d和编辑的页面
+
+intitle:"Priv8 Mailer Inbox 2015" ext:php 只是另一个邮件：P请不要使用垃圾邮件
+
+inurl:"-wp13.txt" 找到MySQL，ABSPATH，Wordpress等配置文件
+
+intext:Table structure for table `wp_users` filetype:sql 网站数据库转储信息
+
+"Joomla! Administration Login" inurl:"/index.php" 查找Joomla管理员登录页面
+
+"Index of" "logins.json" "key3.db" 查找包含保存的Firefox密码，浏览历史记录等
+
+"Greenstone receptionist" inurl:"/etc/main.cfg" 查找Web应用程序配置
+
+"PGP SIGNED MESSAGE-----" inurl:"md5sums" FINDs（MD5，SHA1等
+
+inurl:"/phpinfo.php" "PHP Version" 找到phpinfo（）页面
+
+inurl:".php?cat=" inurl:"‘" 查找易受SQL注入攻击的站点
+
+"Fatal NI connect error" ", connecting to:" ext:log 找到不同应用程序日志的全部负载
+
+inurl:"/attachment/" ext:log 查找具有LOTS信息的Web应用程序日志
+
+"Below is a rendering of the page up to the first error." ext:xml 错误信息
+
+inurl:"/irclogs/" ext:log 找到IRC日志
+
+( ext:php ) ( inurl:/wp-content/uploads/AAPL/loaders/ ) 找到网络shell
+
+filetype:pcmcfg 搜索pulseway应用程序
+
+inurl:cgi-bin/lsnodes_web?node 在线无线电状态节点
+
+inurl:/profile.php?lookup=1 网站和论坛的管理员名称
+
+"your default password is" filetype:pdf 初始密码
+
+inurl:".Admin;-aspx }" "~Login" 管理员登录-Xploit
+
+inurl:?filesrc=**** ~"Current" ~"asp" 不同的上传的shell名称
+
+ext:svc inurl:wsdl Web服务描述语言
+
+inurl:".reset;-.pwd }" "~ User" 门户登录存储用户信息
+
+"CF-Host-Origin-IP" "CF-Int-Brand-ID" "CF-RAY" "CF-Visitor" "github" -site:http://github.com -site:http://cloudfare.com http://cloudfare.com替换“http://github.com
+
+httrack inurl:hts-log.txt ext:txt http://-github.com httrack网站复制日志的数据
+
+inurl:sendmessage.php?type=skype 反映XSS易受攻击的
+
+site:http://onedrive.live.com shared by 识别共享存档
+
+intitle:"Login - OpenStack Dashboard" inurl:"dashboard" 登录 - OpenStack仪表板登录
+
+inurl:"/graphs" intext:"Traffic and system resource graphing" 查看mikrotik图形界面inurl的结果
+
+intitle:"FormAssembly Enterprise :" 包含表单组织用于收集信息。有些敏感
+
+inurl:forgot.do;jsessionid= 忘记密码门户
+
+site:http://cloudshark.org/captures password 包含密码的PCAP捕获
+
+inurl:/o/oauth2 inurl:client_id 搜索这个将返回与OAuth2协议中的认证过程一起使用的各种客户端ID
+
+intitle:Login "Login to pfSense" "Password" "LLC" pfSense防火墙管理登录页面
+
+inurl:iProber2.php ext:php 类别：包含多媒体信息的文件漏洞作者
+
+inurl:/\\filesrc=**** ~"Current" ~":/" ~"upload" 网站上涵盖的大量外壳后门鼠标列表
+
+inurl:~/ftp://193 filetype:(php | txt | html | asp | xml | cnf | sh) ~‘/html‘ 通过IP地址查找FTP服务器列表
+
+inurl:/index.php?option=com_artforms 组件SQL注入
+
+"dirLIST - PHP Directory Lister" "Banned files: php | php3 | php4 | php5 | htaccess | htpasswd | asp | aspx" "index of" ext:php 禁止文件
+
+intitle:"index of/" CCCam.cfg 配置文件包含CCCam服务器的用户和密码
+
+inurl:cgi-bin "ARRIS Enterprises" 面板ARRIS路由器
+
+inurl:"/viewlsts.aspx?BaseType="
+
+"Powered by AutoIndex PHP Script" ext:php 敏感目录和文件包含多媒体信息
+
+inurl:action=php.login 你可以找到不同的管理页面
+
+"All site content" ext:aspx Sharepoint管理网
+
+inurl:admin inurl:uploads 从上传网站捕获图像和文字
+
+inurl:/fckeditor/editor/plugins/ajaxfilemanager/ajaxfilemanager.php 敏感目录
+
+inurl:http://github.com intitle:config intext:"/msg nickserv identify" 原始密码
+
+inurl:"/html/modeminfo.asp? NetGear路由器信息
+
+intitle:"Log In to AR Web" 华为AR路由器登录面板
+
+inurl:user_guide intext:"CodeIgniter User Guide" 离线用户指南
+
+allinurl: http://drive.google.com/open?id= 文件和用户共享谷歌驱动器的数据
+
+site:http://webex.com inurl:tc3000 访问一些会议信息
+
+inurl:"/debug/default" intitle:"Yii Debugger" Yii调试器PHP框架服务器信息
+
+inurl:proftpdpasswd proftpd密码
+
+inurl:/mjpg/video.mjpg 在线设备
+
+intitle:"Vigor Login Page" Vigor路由器登录面板
+
+Meg4-Mail ext:php PHP邮箱
+
+intitle:"Integrated Dell Remote Access Controller 6 - Enterprise" 戴尔远程访问控制器
+
+Hostinger ? 2016. All rights reserved inurl:default.php Hostinger虚拟主机客户端默认公开页面，敏感目录列表
+
+"PHP Credits" "Configuration" "PHP Core" ext:php inurl:info info另一种查看Phpinfo（）的方式
+
+inurl:".esy.es/default.php" public_html文件夹中的文件列表
+
+"PHP Mailer" "priv8 Mailer" ext:php
+
+intitle:"SonicWALL - Authentication" SonicWALL防火墙登录门户
+
+intitle:"Login" inurl:"/doc/page/login.asp" HikVision网络摄像头的界面
+
+inurl:/php/info.php Web服务器检测
+
+"PHP eMailer is created by" ext:php
+
+intitle:Leaf PHP Mailer by [leafmailer.pw] ext:php
+
+"File Manager Version 1.0" "Coded By" 文件管理器
+
+inurl:ManageFilters.jspa?filterView=popular 提供热门的JIRA问题主题
+
+intext:SOAP 1.1 intext:SOAP 1.2 intext:UPLOAD intext:GET intext:POST inurl:op 识别易受攻击的网站
+
+https://paper.dropbox.com inurl:/doc/
+
+intitle:"HFS" "Server Uptime" "Server time" Web服务器检测
+
+inurl:"apc.php" intitle:"APC INFO"
+
+"PHP Version" inurl:/php/phpinfo.php 关PHP安装的信息的页面
+
+"Upload" inurl:"https://webfiles" 发现页面易受目录遍历，上传和下载文件的影响
+
+inurl:"-/monitoring" "statistics of JavaMelody" 监控JavaEE应用程序。允许可视化sql请求
+
+"[HKEY_CURRENT_USER\Software\sota\FFFTP]" filetype:reg Windows服务器的多媒体信息的文件
+
+inurl:http://calendar.google.com/calendar/embed?src= 公开的Google日历
+
+(@http://gmail.com || @http://yahoo.com || @http://hotmail.com) ext:php inurl:compose mail邮件服务器的邮件帐户名和其他数据
+
+intitle:"open webif" "Linux set-top-box" 允许完全控制Dreambox TV机顶盒的Web界面
+
+inurl:/mjpgmain.asp 名称= Y-cam的实时视图
+
+inurl:/web/device/login?lang=1 h3c web管理登录页面
+
+intitle:"StrongLoop API Explorer" intext:"Token Not Set" 寻找开放的Strongloop的环回API资源管理器
+
+"This WebUI administration tool requires scripting support" intitle:‘Login‘ intext:‘Admin Name:‘ -score Juniper Netscreen WebUI登录页面
+
+inurl:"https://vdi" Horizo??n登录页面
+
+index:"html/js/editor/fckeditor/editor/filemanager/connectors" 敏感目录
+
+inurl:/?skipANDROID=true intext:"Pydio Community" Pydio社区，云和安全的FTP服务器登录
+
+inurl:"html/js/editor/ckeditor/" 敏感目录入口
+
+"generated by Munin" inurl:index -intext:index localhost Munin网络小组
+
+"You have selected the following files for upload (0 Files)." 查找文件上传页面
+
+inurl:/human.aspx?r= 安全的ftp服务器登录
+
+inurl:"/wp-content/wpclone-temp/wpclone_backup/" 备份目录包含WordPress用户名和密码
+
+inurl:"/sgdadmin/" Secure Global Desktop Oracle Secure Global桌面控制台和管理员帮助
+
+intitle:"nstview v2.1:: http://nst.void.ru" | intext:"nsTView v2.1 :: nst.void.ru. Password: Host:"
+
+filetype:php intext:Your Email: intext:Your Name: intext:Reply-To: intext:mailer 邮箱用户名修改页面
+
+inurl:log -intext:log ext:log inurl:wp- 从wordpress网站上获取日志
+
+inurl:ipf.conf -intext:ipf.conf ext:conf Solaris系统防火墙
+
+inurl:wp-content/debug.log 启用调试日志的一些操作...
+
+intitle:Sign In inurl:/adfs/ls/?wa=wsignin1.0 用户登录页面
+
+(inurl:"8080/monitorix" & intext:"Hostname") | inurl:"8080/monitorix-cgi" Monitorix系统监控工具web界面
+
+inurl:"/login/login.html" intitle:"Greenbone Security Assistant" OpenVAS登录页面
+
+inurl:"/weathermap/weathermap-cacti-plugin.php" 通过Weathermap Cacti插件映射IT基础设施
+
+intext:"Web Application Report" intext:"This report was created by IBM Security AppScan" ext:pdf 搜索IBMAppScan漏洞报告
+
+"Web Application Assessment Report" ext:pdf 搜索HP WebInspect扫描报告
+
+inurl:index of driver.php?id= 发现操作系统警告
+
+intitle:"bandwidthd" "programmed by david hinkle, commissioned by derbytech wireless networking." BandwidthD搜索报告
+
+inurl:/Portal/Portal.mwsl 这是西门子S7系列PLC控制器的代号
+
+inurl:/FCKeditor/editor/filemanager/upload/ 受保护的文件进行身份验证。
+
+inurl:Dialin/Conference.aspx 登录门户的页面
+
+inurl:pictures intitle:index.of 负载的个人图片
+
+inurl:sgms/auth 找到Sonicwall GMS服务器
+
+site:http://static.ow.ly/docs/ intext:@http://gmail.com | Password 缓存中的密码的文档
+
+inurl:DiGIR.php fnkym0nky描述
+
+intext:"Dumping data for table `orders`" 个人信息的SQL转储文件
+
+filetype:sql intext:wp_users phpmyadmin wp漏洞报告
+
+"index of" bigdump.php 交错的MySQL转储进口商文件
+
+"Index of /wp-content/uploads/backupbuddy_backups" zip 搜索iThemes BackupBuddy备份拉链
+
+intext:"/showme.asp" HTTP_ACCEPT HTTP_ACCEPT服务器的应用程序和会话内容
+
+intext:"/LM/W3SVC/" ext:asp 提供信息的asp ServerVariables
+
+inurl:top.htm inurl:currenttime 在线相机
+
+intext:"Hello visitor from" ext:asp
+
+intext:"expects parameter 1 to be resource, boolean given" filetype:php 易受攻击的基于mysql的网站
+
+inurl:/awcuser/cgi-bin/ Mitel系统
+
+site:http://github.com ext:csv userid | username | user -example password 用户 示例密码诱饵
+
+inurl:"/wp-content/uploads/levoslideshow/" Webshel??l上传
+
+Zixmail inurl:/s/login? Zixmail安全电子邮件登录门户
+
+inurl:"/wp-content/plugins/wp-mobile-detector/" ext:php Detector 3.5远程Shell上传
+
+inurl:trash intitle:index.of 敏感目录
+
+inurl:.ssh intitle:index.of authorized_keys SSH密钥
+
+inurl:/remote/login/ intext:"please login"|intext:"FortiToken clock drift detected" 录门户的页面
+
+intitle:"Hamdida X_Shell Backd00r" 后门
+
+inurl:/WebInterface/login.html CrushFTP的登录页面可能会弹出其他程序的FTP页面
+
+intext:"Powered by BOMGAR" BOMGAR在线设备
+
+intext:"Forum software by XenForo?" 论坛软件”XenForo SQLi漏洞
+
+ext:php inurl:"api.php?action=" SQLi漏洞
+
+inurl:"/webmail/" intitle:"Mail - AfterLogic WebMail" -site:http://afterlogic.org -site:http://afterlogic.com WebMail XXE注入漏洞
+
+filetype:txt "gmail" | "hotmail" | "yahoo" -robots site:gov | site:us 电子邮件
+
+inurl:citrix inurl:login.asp -site:http://citrix.com Citrix登录门户网站
+
+inurl:vidyo -site:http://vidyo.com inurl:portal Vidyo门户
+
+intitle:"MODX CMF Manager Login" 搜索MODX登录门户
+
+"Fenix Final Version v2.0" filetype:php Web-Shell新的
+
+inurl:demo.browse.php intitle:getid3 getID3演示可以允许目录遍历，删除文件等
+
+inurl:/sites/default/files/webform/ Drupal默认的Web表单的存储路径
+
+intext:"eav" filetype:txt NOD32防病毒帐户的用户名和密码的文件
+
+intitle:"Struts Problem Report" intext:"development mode is enabled." Struts问题报告
+
+index of /wp-content/uploads/userpro csv文件发现有很多个人信息
+
+inurl:"/owncloud/public.php" -github -forum 共享文件Owncloud
+
+inurl:"/eyeos/index.php" -github -forum 登录门户的页面
+
+inurl:"/owncloud/index.php" -github -forum owncloud门户页面
+
+inurl:configfile.cgi configfile.cgi D0bby
+
+filetype:pwd intitle:index 登录门户的页面
+
+site:http://github.com filetype:md | filetype:js | filetype:txt "xoxp-" 松散认证令牌
+
+/@fmb80_encoder.htm 声音技术在广播fm
+
+filetype:pdf intitle:"SSL Report" SSL报告主机
+
+intitle:"Skipfish . scan" Skipfish
+
+filetype:pcf "cisco" "GroupPwd" 具有组密码的Cisco VPN文件进行远程访问
+
+filetype:rcf inurl:vpn VPN客户端文件包含敏感信息和登录
+
+intitle:Index of /__MACOSX ... 父目录Wordpress信息
+
+inurl:dynamic.php?page=mailbox Webmail登录页面
+
+inurl:http://inmotionhosting.com:2096/ Webmail登录页面
+
+site:http://pastebin.com intext:@http://gmail.com | @http://yahoo.com | @http://hotmail.com daterange:2457388-2457491 包含电子邮件和相关密码列表的文件
+
+inurl:userRpm inurl:LoginRpm.htm 列出所有TPLink路由器
+
+inurl:https://pma. 登录门户
+
+inurl:/dynamic/login-simple.html? 访问linksys智能WiFi帐户
+
+inurl:/Remote/logon?ReturnUrl /远程/登录ReturnUrl易受攻击的Windows服务
+
+inurl:index.php?app=main intitle:sms 登录门户到播放器webapp默认密码admin：admin
+
+inurl:/view/viewer_index.shtml
+
+常用：
+site:http://gov.cn inurl:.login.asp (z政府网站后台)
+inurl:http://gov.cn/admin （百度就可以）
+inurl:gitlab 公司 filetype:txt
+inurl:gitlab 公司 intext:账号
+site:*. http://gitee.com intext:账号 （ ftp://*:* 密码 地址）
+site:*. http://gitee.com filetype:txt 账号 （ ftp://*:* 密码 地址）
+site:gitlab.*.com intext:密码
+site: http://code.aliyun.com 2019 服务器地址
+
+
+Google高级预定义搜索语法如下：
+
+filetype:xls site: 名单 //信息泄露
+inurl /search_results.php search= XSS 漏洞
+site:域名 inurl:admin
+
+用友
+用友：用友grpu8高校内控管理
+UFIDA NC协同-OA
+
+对公网的语法：
+inurl:备份 filetype:txt 密码
+inurl:config.php filetype:bak
+inurl:data
+"index of/" xxx (mp3等等)
+Index of /password
+"Index of /" +passwd
+"Index of /" +password.txt
+inurl:phpMyAdmin
+inurl:ewebeditor
+intitle:后台管理
+intitle:后台管理 inurl:admin
+inurl:http://baidu.com
+inurl:php?id=1
+inurl:login
+site: "身份证" "学生证" "1992" "1993" "1994" "1995" "1996" "1997" "1998" "1999" "2000"
+site:.cn filetype:xls "服务器" "地址" "账号"
+site:file.*.net（.com/.cn）
+inurl:ali "管理平台"
+cache
+
+类似于百度快照功能，通过cache或许可以查看到目标站点删除的敏感文件
+也可以用来解决找目标站点的物理路径不报错，而无法找到物理路径。
+cache:http://xxx.com
+
+“” + - | AND
+将要搜索的关键字用引号括起来，搜索引擎将会搜索完全匹配关键字的网页
+“房产” +南京 //搜索与南京有关的房产
+“房产” -南京 //搜索结果除去南京的房产
+房产|酒店 //搜索房产或者酒店有关的页面
+房产 AND 酒店 //搜索同时匹配房产与酒店这两个关键词的页面
+
+
+对限定目标类型的语法：
+
+inurl:gitlab 公司 filetype:txt
+inurl:gitlab 公司 intext:账号
+site:*.http://gitee.com intext:账号 （ftp://*:* 密码 地址）
+site:*.http://gitee.com filetype:txt 账号 （ftp://*:* 密码 地址）
+site:gitlab.*.com intext:密码
+site:http://code.aliyun.com 2019 服务器地址
+
+对限定域名的语法：
+
+site:http://xxxx.com
+site:http://xxxx.com filetype: txt (doc docx xls xlsx txt pdf等)
+site:http://xxxx.com intext:管理
+site:http://xxxx.com inurl:login
+site:http://xxxx.com intitle:管理
+site:http://a2.xxxx.com filetype:asp(jsp php aspx等)
+site:http://a2.xxxx.com intext:ftp://*:*(地址 服务器 虚拟机 password等)
+site:http://a2.xxxx.com inurl:file(load)
+site:http://xxxx.com intext:*@http://xxxx.com //得到N个邮件地址，还有邮箱的主人的名字什么的
+site:http://xxxx.com intext:电话 //N个电话
